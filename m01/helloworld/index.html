@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <h1>Hello World</h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.3.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.3.2/umd/react-dom.production.min.js"></script>
+
+    <script>
+        // Criando elemento h1 com React
+        var h1 = React.createElement('h1', null, 'Hello h1 React');
+
+        // Renderizando esse elemento h1 na página
+        ReactDOM.render(h1, document.getElementById('app'));
+        console.log(h1);
+
+        // Instar servidor para servir o meu HTML
+        // npm i http-server -g
+    </script>
+</body>
+</html>
