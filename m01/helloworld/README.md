@@ -3,3 +3,5 @@
  - Criar um elemento com React;
  - Renderizar esse elemento no DOM;
  - Elementos React !== Elementos do DOM
+## 2º Commit
+ - Criar elementos aninhados
