@@ -10,3 +10,6 @@
 ## 4º Commit 
  - Introduzindo o conceito e utilizando JSX
  - Utilizando o babel para fazer o transpile do código JSX
+
+## 5º Commit
+ - Criando o primeiro componente
